@@ -1,0 +1,16 @@
+File,Label,EM,ChrF,Bleu,RougeL,Comment
+client, 1,False, 0.681460168643663, 0.3554698012340758, 0.5010752688172043, predicted code well but added some additional functions
+db, 0,False, 0.25753234928352886, 0.25413058368802594, 0.32432432432432434, predicted code is missing many parts from the original code
+dl, 0,False, 0.012681852531913828, 0, 0.002247191011235955, predicted many additional functions with different name but same body
+dms, 0,False, 0.024720201729537376, 0, 0.0, predicted code is completely different from the original
+dpir1, 0,False, 0.006662159347859107, 0.0543714980537558, 0.002171552660152009, predicted code from suffix with additional main function
+ds1, 0,False, 0.09116495084760719, 0.019449399850525302, 0.03164556962025317, added many additional if-else
+dus1, 0,False, 0.09328748562642297, 8.058181875864114e-80, 0.021686746987951807, predicted a lot of additional code
+job_scraper,1,False, 0.9958768508679672, 0.9391044157537525, 0.9090909090909091, predicted code is the same as the original code but with 3 additional letters
+main, 0,False, 0.2689867680316322, 0.19219606682219084, 0.14241486068111456, some of the predicted code makes sense but its missing post and get requests and has additional functions
+rdht1, 1,False, 0.05531471446290095, 0.014603848388394253, 0.011494252873563216, predicted code matches the missing part completely but has a lot of additional code after the missing part
+rdht22, 1,False, 0.06313131313131322, 0.6566541570454344, 0.20000000000000004, predicted code has the same structure as the missing code but its using different variable
+calculate_noi, 1,False, 0.3212275146642945, 0.04257137790915372, 0.08866995073891626, predicted code matches the missing code but has a lot of additional code after
+PoseModule, 1,False, 0.15224150593286354, 0.019575851212441504, 0.04129793510324483, predicted code matches the missing code but has a lot of additional code after
+process, 0,False, 0.13563847056674275, 6.518923202947529e-232, 0.030825022665457842, predicted code doesnt match the missing code
+process_video, 0,False, 0.27156873289407507, 0.08240723243315004, 0.22368421052631582, predicted code is similar to the missing code but it isnt long enough
